@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    outline: none !important;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+
+.btn:hover {
+    opacity: .8;
+}

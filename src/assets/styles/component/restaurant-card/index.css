@@ -1,0 +1,69 @@
+.restaurant-card-image {
+    width: 100%;
+    height: 170px;
+    background-position: center;
+    background-size: 100%;
+}
+
+.restaurant-card {
+    width: 340px;
+    max-width: 100%;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+    margin: 10px;
+}
+
+.restaurant-card-info {
+    padding: 10px;
+}
+
+.restaurant-card-name {
+    font-size: 12pt;
+    color: #333;
+    font-weight: 600;
+}
+
+.restaurant-card-address {
+    font-size: 10pt;
+    color: #A5A5A5;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.restaurant-card-rating {
+    font-size: 9pt;
+}
+
+.restaurant-card-labels {
+    margin-top: 10px;
+}
+
+.card-label {
+    font-size: 9pt;
+    padding: 3px 10px;
+    margin-right: 10px;
+}
+
+.card-label-cost {
+    background-color: #39b54a;
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-label-cost > svg {
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 12pt;
+}
+
+.card-label-cuisines {
+    color: #484848;
+    font-weight: 300;
+    background-color: #e8e8e8;
+    margin-right: 0px;
+}
+
+@media (max-width: 600px) {
+    .restaurant-card {
+        width: 100%;
+    }
+}

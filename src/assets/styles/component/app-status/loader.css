@@ -1,0 +1,47 @@
+.loader {
+  font-size: 0;
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 120px;
+  width: 120px;
+}
+.loader div {
+  background: #b52e3c;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  position: absolute;
+  animation: loader-bounce 1.75s infinite;
+  top: 50%;
+  margin-top: -15px;
+}
+.loader div:nth-child(2) {
+  animation-delay: 0.25s;
+  left: 50%;
+  margin-left: -15px;
+}
+.loader div:nth-child(3) {
+  animation-delay: 0.5s;
+  right: 0;
+}
+
+@keyframes loader-bounce {
+  10% {
+    transform: translate3d(0, 30px, 0);
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    height: 30px;
+  }
+  14% {
+    height: 90px;
+  }
+  15% {
+    height: 30px;
+    transform: translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.8, 0, 0.8, 1);
+  }
+  35% {
+    transform: translate3d(0, 0, 0);
+  }
+}

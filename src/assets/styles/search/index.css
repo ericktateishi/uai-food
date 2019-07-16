@@ -1,0 +1,43 @@
+.search {
+    background-image: url('../../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-header {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+    max-height: 100px;
+    box-sizing: border-box;
+}
+
+.search-logo {
+    max-width: 120px;
+    margin: 20px auto;
+}
+
+.search-widget {
+    text-align: center;
+    max-width: 580px;
+}
+
+.search-widget h1 {
+    font-size: 24pt;
+    text-align: left;
+    font-weight: 900;
+    line-height: 1;
+}
+
+@media (max-width: 600px) {
+    .search-widget {
+        padding: 0px 20px;
+    }
+}

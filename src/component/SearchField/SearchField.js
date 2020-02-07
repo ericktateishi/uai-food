@@ -53,7 +53,8 @@ class SearchField extends React.Component {
         localStorage.setItem('__cty_id', city.id)
         this.props.dispatch(cityActions.setCity(city))
         this.props.history.push('/catalog')
-        this.props.newCity()
+        if (this.props.newCity)
+            this.props.newCity()
         this.setState({
             cities: null
         })

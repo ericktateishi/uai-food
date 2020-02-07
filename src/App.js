@@ -4,8 +4,8 @@ import { connect } from 'react-redux'
 
 import Search from './routes/Search'
 import Catalog from './routes/Catalog'
-import Loader from './component/app-status/Loader'
-import Error from './component/app-status/Error'
+import Loader from './component/AppStatus/Loader'
+import Error from './component/AppStatus/Error'
 
 class App extends React.Component {
 
